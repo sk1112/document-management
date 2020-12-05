@@ -1,0 +1,18 @@
+<%= form_with model: @user, url: user_registration_path, method: :post, local: true do |f| %>
+<%= render 'devise/registrations/error_messages', user: @user %>
+<div class="registration">
+  <div class="registration-contents">ユーザー新規登録</div>
+    <%= f.label :name, "氏名" %>
+    <%= f.text_field :name, class:"name", placeholder:"氏名を入力してください" %>
+    <%= f.label :department, "所属部署" %>
+    <%= f.text_field :department, class:"department", placeholder:"所属部署を入力してください" %>
+    <%= f.label :email, "メールアドレス" %>
+    <%= f.email_field :email, class:"registration-email", placeholder:"メールアドレスを入力してください" %>
+    <%= f.label :password, "パスワード" %>
+    <%= f.password_field :password, class:"registration-password", placeholder:"パスワードを入力してください" %>
+    <%= f.label :password_confirmation, "確認パスワード" %>
+    <%= f.password_field :password_confirmation, class:"registration-password", placeholder:"同じパスワードを入力して下さい" %>
+    <%= f.submit "新規登録" ,class:"registration-btn" %>
+    <%= link_to "戻る", root_path, class:"btn-top-page"%>
+</div>
+<% end %>

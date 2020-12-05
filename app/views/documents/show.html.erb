@@ -1,0 +1,34 @@
+<div class="document-detail">
+  <div class="detail">文書詳細情報</div>
+  <hr width="300">
+  <div class="document-title">
+    <p>文書名</p>
+    <b><%= @document.title %></b>
+  </div>
+  <div class="document-jurisdiction-department">
+    <p>所管部署</p>
+    <b><%= @document.jurisdiction_department %></b>
+  </div>
+  <div class="document-category">
+    <p>カテゴリー</p>
+    <b><%= @document.category.name %></b>
+  </div>
+  <div class="document-storage-period">
+    <p>保存期間</p>
+    <b><%= @document.storage_period.name %></b>
+  </div>
+  <div class="document-storage-period">
+    <p>保管場所</p>
+    <b><%= @document.storage_location %></b>
+  </div>
+  <div class="document-disposal-date">
+    <p>廃棄年月日</p>
+    <b><%= @document.disposal_date %></b>
+  </div>
+  <hr width="300">
+    <% if user_signed_in? && current_user.id == @document.user.id %>
+      <%= link_to "編集する", edit_document_path, method: :get, class:"edit-btn" %>
+      <%= link_to "削除する", document_path, method: :delete, class: "delete-btn" %>
+    <% end %>
+    <%= link_to "戻る", root_path, class:"btn-to-back"%>
+</div>

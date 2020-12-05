@@ -1,0 +1,81 @@
+.document-detail {
+  color: black;
+  font-size: 22px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.detail {
+  margin: 30px;
+  font-size: 25px;
+}
+
+hr {
+  border: solid 1px deepskyblue;
+}
+
+.document-title {
+  margin: 40px 0 20px 0;
+}
+
+.document-jurisdiction-department {
+  margin: 20px 0;
+}
+
+.document-category {
+  margin: 20px 0;
+}
+
+.document-storage-period {
+  margin: 20px 0;
+}
+
+
+.document-storage-location {
+  margin: 20px 0;
+}
+
+.document-disposal-date {
+  font-size: 22px;
+  margin: 20px 0;
+}
+
+.edit-btn {
+  width: 180px;
+  padding: 15px;
+  margin-top: 30px;
+  font-size: 15px;
+  border: 1px solid white;
+  background: linear-gradient(to top right, aqua, dodgerblue, deepskyblue, white ); 
+  color: white;
+  text-decoration: none;
+  text-shadow:2px 2px 3px black
+}
+
+.delete-btn {
+  width: 180px;
+  padding: 15px;
+  margin-top: 30px;
+  font-size: 15px;
+  border: 1px solid white;
+  background: linear-gradient(to top right, aqua, dodgerblue, deepskyblue, white ); 
+  color: white;
+  text-decoration: none;
+  text-shadow:2px 2px 3px black
+}
+
+.btn-to-back {
+  width: 180px;
+  height: 25px;
+  margin: 30px 0;
+  padding: 15px 15px 15px;
+  text-align: center;
+  border: 1px solid white;
+  background: linear-gradient(to top right, aqua, dodgerblue, deepskyblue, white ); 
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+  text-shadow:2px 2px 3px black
+}

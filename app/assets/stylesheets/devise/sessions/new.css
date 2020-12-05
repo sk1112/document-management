@@ -1,0 +1,57 @@
+.session {
+  height: 850px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: black;
+  font-size: 15px;
+}
+
+.session-contents {
+  font-size: 22px;
+  margin: 40px 0;
+}
+
+label {
+  margin-right: 250px;
+  width:100px;
+  float: left;
+  font-size: 14px;
+}
+
+.email {
+  height: 50px;
+  width: 350px;
+  margin-bottom: 30px;
+}
+
+.password {
+  height: 50px;
+  width: 350px;
+  margin-bottom: 30px;
+}
+
+.session-btn {
+  width: 200px;
+  padding: 15px;
+  margin-top: 50px;
+  font-size: 15px;
+  border: 1px solid white;
+  background: linear-gradient(to top right, aqua, dodgerblue, deepskyblue, white ); 
+  color: white;
+  text-shadow:2px 2px 3px black;
+}
+
+.session-back-btn {
+  width: 170px;
+  height: 25px;
+  margin: 40px 0;
+  padding: 15px 15px 15px;
+  text-align: center;
+  border: 1px solid white;
+  background: linear-gradient(to top right, aqua, dodgerblue, deepskyblue, white ); 
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+  text-shadow:2px 2px 3px black
+}

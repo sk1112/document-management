@@ -10,6 +10,34 @@
   </head>
 
   <body>
+    <header>
+  	  <h1 class="headline">
+        <%= link_to "Document Management", root_path, class:"headline-name" %>
+      </h1>
+      <ul class="nav-list">
+        <li class="nav-list-item">
+          <%= link_to "文書新規登録", new_document_path, class:"document-registration" %>
+        </li>
+        <% if user_signed_in? %>
+        <li class="nav-list-item">
+          <%= link_to current_user.name, root_path, class: "user-name" %></li>
+        </li>
+        <li class="nav-list-item">
+          <%= link_to 'ログアウト', destroy_user_session_path, method: :delete, class: "logout" %>
+        </li>
+        <% else %>
+        <li class="nav-list-item">
+          <%= link_to "ログイン", new_user_session_path, class: "user-session" %>
+        </li>
+        <li class="nav-list-item">
+          <%= link_to "ユーザー新規登録", new_user_registration_path, class: "user-registration" %>
+        </li>
+        <% end %>
+      </ul>
+    </header>
     <%= yield %>
+    <footer>
+      <p>© All rights reserved by Kosei Suzuki.</p>
+    </footer>
   </body>
 </html>

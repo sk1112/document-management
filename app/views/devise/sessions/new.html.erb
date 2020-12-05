@@ -1,0 +1,11 @@
+<%= form_with model: @user, url: user_session_path, method: :post, local: true do |f| %>
+<div class="session">
+  <div class="session-contents">ユーザーログイン</div>
+    <%= f.label :email, "メールアドレス" %>
+    <%= f.email_field :email, class:"email", placeholder:"メールアドレスを入力してください" %>
+    <%= f.label :password, "パスワード" %>
+    <%= f.password_field :password, class:"password", placeholder:"パスワードを入力してください" %>
+    <%= f.submit "ログイン" ,class:"session-btn" %>
+    <%= link_to "戻る", root_path, class:"session-back-btn"%>
+</div>
+<% end %>

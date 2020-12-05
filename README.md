@@ -1,24 +1,31 @@
-# README
+#アプリケーション名
+*document-management
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#アプリケーション概要
+*文書を登録し、文書廃棄や保管場所などを管理する文書管理ツール
 
-Things you may want to cover:
+#URL
 
-* Ruby version
 
-* System dependencies
+#テスト用アカウント
 
-* Configuration
 
-* Database creation
+#利用方法
+*管理したい文書をデータベースに登録
+*検索機能、廃棄文書通知機能により廃棄対象の文書をデータベースから抽出
+*廃棄が完了した文書をデータベースから削除
 
-* Database initialization
+#目指した課題解決
+*自治体や企業における文書の保管・廃棄業務をデータベースで管理することにより、廃棄文書を探し出す時間を短縮して業務効率化を図る。
 
-* How to run the test suite
+#要件定義
+*文書登録機能
+*文書検索機能(ワード検索、条件指定検索)
+*ユーザー登録機能(ログイン、ログアウト)
+*文書一覧表示機能
+*文書詳細表示機能
+*文書編集機能
+*文書削除機能
+*廃棄文書通知機能(文書の廃棄期限が残り1ヶ月に到達した文書をユーザーに通知)
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+#データベース設計

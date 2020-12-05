@@ -1,0 +1,8 @@
+<div class="document-contents">
+  <% @documents.each do |document| %>
+      <div class="documents">
+        <%= link_to document.title, document_path(document.id), method: :get, class: "document-name" %>
+        <p><%= document.jurisdiction_department %></p>
+      </div>
+  <% end %>
+</div>

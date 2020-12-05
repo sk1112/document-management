@@ -1,0 +1,89 @@
+.document-form {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-size: 22px;
+  color: black;
+}
+
+.document-container {
+  height:800px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: black;
+  font-size: 15px;
+}
+
+label {
+  margin-right: 250px;
+  width:100px;
+  float: left;
+}
+
+.title {
+  height: 40px;
+  width: 350px;
+  margin-bottom: 30px;
+}
+
+.jurisdiction-department {
+  height: 40px;
+  width: 350px;
+  margin-bottom: 30px;
+}
+
+.category-select{
+  height: 45px;
+  width: 360px;
+  margin-bottom: 30px;
+}
+
+.storage-period-select {
+  height: 45px;
+  width: 360px;
+  margin-bottom: 30px;
+}
+
+.storage_location {
+  height: 40px;
+  width: 350px;
+  resize:none;
+  margin-bottom: px;
+}
+
+.disposal-date {
+  width: 350px;
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+.btn {
+  width: 200px;
+  padding: 15px;
+  margin-top: 50px;
+  font-size: 15px;
+  border: 1px solid white;
+  color: white;
+  text-shadow:2px 2px 3px black;
+  background: linear-gradient(to top right, aqua, dodgerblue, deepskyblue, white );
+}
+
+.btn-back {
+  width: 170px;
+  height: 25px;
+  margin: 40px 0;
+  padding: 15px 15px 15px;
+  text-align: center;
+  border: 1px solid white;
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+  text-shadow:2px 2px 3px black;
+  background: linear-gradient(to top right, aqua, dodgerblue, deepskyblue, white );
+}
+
+.error-alert {
+ text-align: center;
+ color: red;
+}

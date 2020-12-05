@@ -1,0 +1,28 @@
+.document-contents  {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  height: 350px;
+}
+
+.documents {
+  font-size: 12px;
+  height: 120px;
+  width: 130px;
+  padding-top: 50px;
+  text-align: center;
+  border: 8px double lightsteelblue;
+  font-style: italic;
+  margin: 5px 10px;
+  background: linear-gradient(to top right, lightsteelblue, white);
+
+.document-name {
+  color: black;
+}
+
+.documents p {
+  font-size: 12px;
+  font-weight: normal;
+  padding-top: 40px;
+}

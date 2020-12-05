@@ -10,7 +10,14 @@ module DocumentManagement
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 6.0
-
+    # アプリケーションが対応している言語のホワイトリスト
+    config.i18n.available_locales = %i[ja en]
+    # デフォルトの言語設定
+    config.i18n.default_locale = :ja
+    # 言語ファイル階層ごとに設定するための記述
+    config.i18n.load_path += Dir[Rails.root.join('config', 'locales', '**', '*.{rb,yml}').to_s]
+    # Please use `Rails.root.join('path/to')` instead.と言われたら、下記のようにする。
+    config.i18n.load_path += Dir[Rails.root.join('config/locales/**/*.{rb,yml}').to_s]
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration can go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded after loading
