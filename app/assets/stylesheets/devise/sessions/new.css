@@ -32,26 +32,33 @@ label {
 }
 
 .session-btn {
-  width: 200px;
-  padding: 15px;
+  cursor: pointer;
+  width: 180px;
+  padding: 12px;
   margin-top: 50px;
   font-size: 15px;
-  border: 1px solid white;
+  border: 1px groove lightsteelblue;
   background: linear-gradient(to top right, aqua, dodgerblue, deepskyblue, white ); 
   color: white;
   text-shadow:2px 2px 3px black;
 }
 
 .session-back-btn {
-  width: 170px;
-  height: 25px;
+  cursor: pointer;
+  width: 150px;
+  height: 20px;
   margin: 40px 0;
   padding: 15px 15px 15px;
   text-align: center;
-  border: 1px solid white;
+  border: 1px groove lightsteelblue;
   background: linear-gradient(to top right, aqua, dodgerblue, deepskyblue, white ); 
   color: white;
   font-size: 15px;
   text-decoration: none;
   text-shadow:2px 2px 3px black
+}
+
+.login-flash-message {
+  text-align: center;
+  color: red;
 }

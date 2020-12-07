@@ -3,7 +3,9 @@ class DocumentsController < ApplicationController
   before_action :set_document, only: [:show, :edit, :update, :destroy]
 
   def index
-    @documents = Document.all
+    @documents = Document.includes(:user).order('created_at DESC')
+    @search_params = document_search_params
+    @documents = Document.search(@search_params).joins(:user)
   end
 
   def new
@@ -20,6 +22,11 @@ class DocumentsController < ApplicationController
   end
 
   def show
+  end
+
+  def search
+    @search_params = document_search_params
+    @documents = Document.search(@search_params).joins(:user)
   end
   
   def edit
@@ -41,11 +48,15 @@ class DocumentsController < ApplicationController
   private
   
   def document_params
-    params.require(:document).permit(:title, :category_id, :storage_location, :storage_period_id, :disposal_date, :jurisdiction_department)
+    params.require(:document).permit(:title, :jurisdiction_department, :category_id, :storage_location, :storage_period_id, :disposal_date)
           .merge(user_id: current_user.id)
   end
 
   def set_document
     @document = Document.find(params[:id])
+  end
+
+  def document_search_params
+    params.fetch(:search, {}).permit(:title, :jurisdiction_department, :disposal_date_from, :disposal_date_to, :storage_location)
   end
 end

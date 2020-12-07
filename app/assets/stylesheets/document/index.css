@@ -1,20 +1,73 @@
+.search-groupe {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: left;
+}
+
+.search-label {
+  padding: 9px 0 0 10px;
+  margin: 0 35px 0 230px;
+}
+
+.search-title-input {
+  width: 210px;
+  height: 30px;
+  border: 2px groove lightsteelblue;
+}
+
+.search-jurisdiction-department-input {
+  width: 210px;
+  height: 30px;
+  border: 2px groove lightsteelblue;
+}
+
+.search-disposal-date-input {
+  width: 210px;
+  height: 30px;
+  border: 2px groove lightsteelblue;
+}
+
+.search-storage-location-input {
+  width: 210px;
+  height: 30px;
+  border: 2px groove lightsteelblue;
+}
+
+.search-btn {
+  margin: 20px 0 20px 420px;
+}
+
+.search-submit-btn {
+  cursor: pointer;
+  height: 30px;
+  font-family: FontAwesome;
+  width: 160px;
+  font-size: 15px;
+  background: linear-gradient(to top right, aqua, dodgerblue, deepskyblue, white );
+  border: 2px groove lightsteelblue;
+  color: white;
+  text-shadow:2px 2px 3px black;
+}
+
 .document-contents  {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: center;
-  height: 350px;
+  height: 100%;
+  width: 100%;
 }
 
 .documents {
   font-size: 12px;
-  height: 120px;
-  width: 130px;
-  padding-top: 50px;
+  height: 125px;
+  width: 125px;
+  padding-top: 30px;
   text-align: center;
-  border: 8px double lightsteelblue;
+  border: 4px groove lightsteelblue;
   font-style: italic;
-  margin: 5px 10px;
+  margin: 5px 5px;
   background: linear-gradient(to top right, lightsteelblue, white);
 }
 
@@ -25,5 +78,5 @@
 .documents p {
   font-size: 12px;
   font-weight: normal;
-  padding-top: 40px;
+  padding-top: 25px;
 }
