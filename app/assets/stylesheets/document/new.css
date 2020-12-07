@@ -68,14 +68,22 @@ label {
   color: white;
   text-shadow: 2px 2px 3px black;
   background: linear-gradient(to top right, aqua, dodgerblue, deepskyblue, white );
+  border-radius: 25px;
+}
+
+.btn:hover {
+  text-shadow: none;
+  border: none;
+  color: white;
+  background: linear-gradient(to top right, aqua, deepskyblue, white );
 }
 
 .btn-back {
   cursor: pointer;
   width: 150px;
-  height: 20px;
+  height: 25px;
   margin: 40px 0;
-  padding: 10px 15px 15px;
+  padding: 12px 15px;
   text-align: center;
   border: 1px groove lightsteelblue;
   color: white;
@@ -83,6 +91,14 @@ label {
   text-decoration: none;
   text-shadow:2px 2px 3px black;
   background: linear-gradient(to top right, aqua, dodgerblue, deepskyblue, white );
+  border-radius: 25px;
+}
+
+.btn-back:hover {
+  text-shadow: none;
+  border: none;
+  color: white;
+  background: linear-gradient(to top right, aqua, deepskyblue, white );
 }
 
 .error-alert {

@@ -58,19 +58,27 @@ label {
 
 .update-btn {
   cursor: pointer;
-  width: 150px;
+  width: 160px;
   padding: 15px;
   margin-top: 50px;
   font-size: 15px;
   border: 1px groove lightsteelblue;
   background: linear-gradient(to top right, aqua, dodgerblue, deepskyblue, white ); 
   color: white;
+  border-radius: 25px;
   text-shadow:2px 2px 3px black;
+}
+
+.update-btn:hover {
+  text-shadow: none;
+  border: none;
+  color: white;
+  background: linear-gradient(to top right, aqua, deepskyblue, white );
 }
 
 .back-btn {
   cursor: pointer;
-  width: 120px;
+  width: 130px;
   height: 20px;
   margin: 40px 0;
   padding: 15px 15px 15px;
@@ -80,5 +88,13 @@ label {
   color: white;
   font-size: 15px;
   text-decoration: none;
-  text-shadow:2px 2px 3px black;
+  border-radius: 25px;
+  text-shadow: 2px 2px 3px black;
+}
+
+.back-btn:hover {
+  text-shadow: none;
+  border: none;
+  color: white;
+  background: linear-gradient(to top right, aqua, deepskyblue, white );
 }

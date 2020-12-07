@@ -4,7 +4,6 @@
     <title>DocumentManagement</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
@@ -12,11 +11,11 @@
   <body>
     <header>
   	  <h1 class="headline">
-        <%= link_to "Document Management", root_path, class:"headline-name" %>
+        <%= link_to "文書保存・廃棄管理システム", root_path, class:"headline-name" %>
       </h1>
       <ul class="nav-list">
         <li class="nav-list-item">
-          <%= link_to "文書新規登録", new_document_path, class:"document-registration" %>
+          <%= link_to "新規文書登録", new_document_path, class:"document-registration" %>
         </li>
         <% if user_signed_in? %>
         <li class="nav-list-item">
@@ -30,7 +29,7 @@
           <%= link_to "ログイン", new_user_session_path, class: "user-session" %>
         </li>
         <li class="nav-list-item">
-          <%= link_to "ユーザー新規登録", new_user_registration_path, class: "user-registration" %>
+          <%= link_to "新規ユーザー登録", new_user_registration_path, class: "user-registration" %>
         </li>
         <% end %>
       </ul>

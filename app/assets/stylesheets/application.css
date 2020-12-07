@@ -39,6 +39,10 @@ header .headline {
     padding-bottom: 2px;
 }
 
+.headline:hover {
+  text-shadow: none;
+}
+
 .headline-name {
   text-decoration: none;
   color: white;
@@ -59,6 +63,10 @@ header .headline {
   list-style: none;
   display: inline-block;
   margin: 0 20px;
+}
+
+.nav-list-item:hover {
+  text-shadow: none;
 }
 
 .document-registration {
@@ -82,10 +90,18 @@ header .headline {
   text-shadow:2px 2px 3px black;
 }
 
+.user-name:hover {
+  text-shadow: none;
+}
+
 .logout {
   color: white;
   text-decoration: none;
   text-shadow:2px 2px 3px black;
+}
+
+.logout:hover {
+  text-shadow: none;
 }
 
 footer {

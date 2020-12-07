@@ -7,47 +7,56 @@
 
 .search-label {
   padding: 9px 0 0 10px;
-  margin: 0 35px 0 230px;
+  margin: 0 35px 0 180px;
 }
 
 .search-title-input {
-  width: 210px;
+  width: 250px;
   height: 30px;
   border: 2px groove lightsteelblue;
 }
 
 .search-jurisdiction-department-input {
-  width: 210px;
+  width: 250px;
   height: 30px;
   border: 2px groove lightsteelblue;
 }
 
 .search-disposal-date-input {
-  width: 210px;
+  width: 250px;
   height: 30px;
   border: 2px groove lightsteelblue;
 }
 
 .search-storage-location-input {
-  width: 210px;
+  width: 250px;
   height: 30px;
   border: 2px groove lightsteelblue;
 }
 
 .search-btn {
-  margin: 20px 0 20px 420px;
+  margin: 20px 0 20px 410px;
 }
 
 .search-submit-btn {
   cursor: pointer;
-  height: 30px;
+  height: 40px;
   font-family: FontAwesome;
-  width: 160px;
+  width: 180px;
   font-size: 15px;
   background: linear-gradient(to top right, aqua, dodgerblue, deepskyblue, white );
   border: 2px groove lightsteelblue;
   color: white;
   text-shadow:2px 2px 3px black;
+  border-radius: 25px;
+  padding-bottom: 2px;
+}
+
+.search-submit-btn:hover {
+  text-shadow: none;
+  border: none;
+  color: white;
+  background: linear-gradient(to top right, aqua, deepskyblue, white );
 }
 
 .document-contents  {
@@ -61,9 +70,9 @@
 
 .documents {
   font-size: 12px;
-  height: 125px;
+  height: 150px;
   width: 125px;
-  padding-top: 30px;
+  padding-top: 15px;
   text-align: center;
   border: 4px groove lightsteelblue;
   font-style: italic;
@@ -71,12 +80,15 @@
   background: linear-gradient(to top right, lightsteelblue, white);
 }
 
-.document-name {
-  color: black;
+.documents:hover {
+  border: none;
 }
 
-.documents p {
-  font-size: 12px;
+.document-column {
+  color: black;
+  padding: 15px 2px;
   font-weight: normal;
-  padding-top: 25px;
+  display: flex;
+  text-decoration: none;
+  flex-direction: column;
 }

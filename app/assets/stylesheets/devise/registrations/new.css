@@ -52,7 +52,15 @@ label {
   border: 1px groove lightsteelblue;
   background: linear-gradient(to top right, aqua, dodgerblue, deepskyblue, white ); 
   color: white;
+  border-radius: 25px;
   text-shadow:2px 2px 3px black;
+}
+
+.registration-btn:hover {
+  text-shadow: none;
+  border: none;
+  color: white;
+  background: linear-gradient(to top right, aqua, deepskyblue, white );
 }
 
 .btn-top-page {
@@ -67,5 +75,13 @@ label {
   color: white;
   font-size: 15px;
   text-decoration: none;
+  border-radius: 25px;
   text-shadow:2px 2px 3px black
+}
+
+.btn-top-page:hover {
+  text-shadow: none;
+  border: none;
+  color: white;
+  background: linear-gradient(to top right, aqua, deepskyblue, white );
 }
