@@ -5,7 +5,7 @@ class Document < ApplicationRecord
   belongs_to :user
 
   with_options presence: true do
-    validates :title, length: { maximum: 16 }
+    validates :title, length: { maximum: 10 }
     validates :jurisdiction_department
     validates :storage_location
     validates :user_id
