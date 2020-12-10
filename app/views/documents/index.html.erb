@@ -4,7 +4,7 @@
     <div class="documents">
       <%= link_to document.title, document_path(document.id), method: :get, class: "document-column" %>
       <%= link_to document.jurisdiction_department, document_path(document.id), method: :get, class: "document-column" %>
-      <%= link_to document.disposal_date, document_path(document.id), method: :get, class: "document-column" %>
+      <%= link_to document.disposal_date, document_path(document.id), method: :get, class: "document-column" %> 
     </div>
   <% end %>
 </div>

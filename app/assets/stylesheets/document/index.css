@@ -6,31 +6,36 @@
 }
 
 .search-label {
-  padding: 9px 0 0 10px;
-  margin: 0 35px 0 180px;
+  padding: 13px 0 0 10px;
+  margin: 0 40px 0 160px;
+  text-align: right;
 }
 
 .search-title-input {
-  width: 250px;
+  width: 260px;
   height: 30px;
+  margin: 5px 0;
   border: 2px groove lightsteelblue;
 }
 
 .search-jurisdiction-department-input {
-  width: 250px;
+  width: 260px;
   height: 30px;
+  margin: 5px 0;
   border: 2px groove lightsteelblue;
 }
 
 .search-disposal-date-input {
-  width: 250px;
+  width: 260px;
   height: 30px;
+  margin: 5px 0;
   border: 2px groove lightsteelblue;
 }
 
 .search-storage-location-input {
-  width: 250px;
+  width: 260px;
   height: 30px;
+  margin: 5px 0;
   border: 2px groove lightsteelblue;
 }
 
@@ -70,13 +75,12 @@
 
 .documents {
   font-size: 13px;
-  height: 155px;
+  height: 160px;
   width: 125px;
-  padding-top: 15px;
+  margin: 5px;
   text-align: center;
   border: 4px groove lightsteelblue;
   font-style: italic;
-  margin: 5px 5px;
   background: linear-gradient(to top right, lightsteelblue, white);
 }
 
@@ -86,7 +90,7 @@
 
 .document-column {
   color: black;
-  padding: 15px 2px;
+  padding-top: 23px;
   font-weight: normal;
   display: flex;
   text-decoration: none;

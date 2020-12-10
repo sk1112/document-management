@@ -5,7 +5,7 @@ class DocumentsController < ApplicationController
   def index
     @documents = Document.includes(:user).order('created_at DESC')
     @search_params = document_search_params
-    @documents = Document.search(@search_params).joins(:user)
+    @documents = Document.search(@search_params).joins(:user) 
   end
 
   def new
@@ -30,6 +30,7 @@ class DocumentsController < ApplicationController
   end
   
   def edit
+    redirect_to action: :index unless current_user.id == @document.user.id
   end
 
   def update
@@ -41,6 +42,7 @@ class DocumentsController < ApplicationController
   end
 
   def destroy
+    redirect_to action: :show unless current_user.id == @document.user.id
     @document.destroy
     redirect_to root_path
   end

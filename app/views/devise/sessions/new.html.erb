@@ -9,7 +9,9 @@
     <%= f.email_field :email, class:"email", placeholder:"メールアドレスを入力してください" %>
     <%= f.label :password, "パスワード" %>
     <%= f.password_field :password, class:"password", placeholder:"パスワードを入力してください" %>
-    <%= f.submit "ログイン" ,class:"session-btn" %>
+    <div class="session-btn">
+    <%= f.submit "ログイン" ,class:"login-btn" %>
     <%= link_to "戻る", root_path, class:"session-back-btn"%>
+    </div>
 </div>
 <% end %>

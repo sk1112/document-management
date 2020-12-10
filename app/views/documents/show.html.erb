@@ -25,10 +25,15 @@
     <p>廃棄年月日</p>
     <b><%= @document.disposal_date %></b>
   </div>
+  <div class="script">
+    <%= render 'documents/script', document: @document %>
+  </div>
   <hr width="300">
-    <% if user_signed_in? && current_user.id == @document.user.id %>
-      <%= link_to "編集する", edit_document_path, method: :get, class:"edit-btn" %>
-      <%= link_to "削除する", document_path, method: :delete, class: "delete-btn" %>
-    <% end %>
-    <%= link_to "戻る", root_path, class:"btn-to-back"%>
+  <div class="btn-contents">
+  <% if user_signed_in? && current_user.id == @document.user.id %>
+    <p><%= link_to "編集する", edit_document_path, method: :get, class:"edit-btn" %></p>
+    <p><%= link_to "削除する", document_path, method: :delete, class: "delete-btn" %></p>
+  <% end %>
+  <p><%= link_to "戻る", root_path, class:"btn-to-back"%></p>
+  </div>
 </div>

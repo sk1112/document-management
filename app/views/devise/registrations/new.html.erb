@@ -12,7 +12,9 @@
     <%= f.password_field :password, class:"registration-password", placeholder:"パスワードを入力してください" %>
     <%= f.label :password_confirmation, "確認パスワード" %>
     <%= f.password_field :password_confirmation, class:"registration-password", placeholder:"同じパスワードを入力して下さい" %>
+    <div class="btn-submit">
     <%= f.submit "新規登録" ,class:"registration-btn" %>
     <%= link_to "戻る", root_path, class:"btn-top-page"%>
+    </div>
 </div>
 <% end %>

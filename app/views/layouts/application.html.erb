@@ -5,16 +5,16 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
     <link rel="stylesheet" href="small.css" media="screen and (max-width:480px)">
     <link rel="stylesheet" href="medium.css" media="screen and (min-width:480px) and (max-width:1024px)"> 
     <link rel="stylesheet" href="wide.css" media="screen and (min-width:1024px)">
-    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
     <header>
   	  <h1 class="headline">
-        <%= link_to "文書保管・廃棄管理システム", root_path, class:"headline-name" %>
+        <%= link_to "DocumentManagement", root_path, class:"headline-name" %>
       </h1>
       <ul class="nav-list">
         <li class="nav-list-item">

@@ -20,34 +20,41 @@ label {
 }
 
 .name {
-  height: 50px;
+  height: 45px;
   width: 350px;
   margin-bottom: 30px;
 }
 
 .department {
-  height: 50px;
+  height: 45px;
   width: 350px;
   margin-bottom: 30px;
 }
 
 .registration-email {
-  height: 50px;
+  height: 45px;
   width: 350px;
   margin-bottom: 30px;
 }
 
 .registration-password {
-  height: 50px;
+  height: 45px;
   width: 350px;
   margin-bottom: 30px;
 }
 
+.btn-submit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 200px;
+}
+
 .registration-btn {
   cursor: pointer;
-  width: 180px;
-  padding: 12px;
-  margin-top: 50px;
+  width: 160px;
+  height: 50px;
+  margin: 20px;
   font-size: 15px;
   border: 1px groove lightsteelblue;
   background: linear-gradient(to top right, aqua, dodgerblue, deepskyblue, white ); 
@@ -59,17 +66,16 @@ label {
 .registration-btn:hover {
   text-shadow: none;
   border: none;
-  color: white;
   background: linear-gradient(to top right, aqua, deepskyblue, white );
 }
 
 .btn-top-page {
   cursor: pointer;
-  width: 150px;
-  height: 19px;
-  margin: 40px 0;
-  padding: 15px 15px 15px;
   text-align: center;
+  width: 160px;
+  height: 35px;
+  margin-top: 15px;
+  padding-top: 10px;
   border: 1px groove lightsteelblue;
   background: linear-gradient(to top right, aqua, dodgerblue, deepskyblue, white ); 
   color: white;
@@ -82,6 +88,5 @@ label {
 .btn-top-page:hover {
   text-shadow: none;
   border: none;
-  color: white;
   background: linear-gradient(to top right, aqua, deepskyblue, white );
 }

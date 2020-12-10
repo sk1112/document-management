@@ -1,8 +1,9 @@
 class Document < ApplicationRecord
+  belongs_to :user
+  
   extend ActiveHash::Associations::ActiveRecordExtensions
   belongs_to :category
   belongs_to :storage_period
-  belongs_to :user
 
   with_options presence: true do
     validates :title, length: { maximum: 10 }
