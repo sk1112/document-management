@@ -24,7 +24,9 @@
               date_separator: '%s'),
             '年 ', '月 ') + '日' %>
      </div>
-     <%= f.submit "保存する" ,class:"update-btn" %>
-     <%= link_to "戻る", document_path(@document.id), class:"back-btn"%>
+     <div class="update">
+       <%= f.submit "保存する" ,class:"update-btn" %>
+       <%= link_to "戻る", document_path(@document.id), class:"back-btn"%>
+     </div>
   </div>
 <% end %>
