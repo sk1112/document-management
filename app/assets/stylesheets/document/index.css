@@ -75,7 +75,7 @@
 
 .documents {
   font-size: 13px;
-  height: 160px;
+  height: 165px;
   width: 125px;
   margin: 5px;
   text-align: center;
@@ -90,7 +90,7 @@
 
 .document-column {
   color: black;
-  padding-top: 23px;
+  padding-top: 25px;
   font-weight: normal;
   display: flex;
   text-decoration: none;
