@@ -9,7 +9,7 @@ class Category < ActiveHash::Base
     { id: 7, name: '契約書' },
     { id: 8, name: '請求書' },
     { id: 9, name: '議事録' },
-    { id: 10, name: '人事記録' },
+    { id: 10, name: '記録書' },
     { id: 11, name: '通知書' },
     { id: 12, name: '依頼書' },
     { id: 13, name: '指示書' },

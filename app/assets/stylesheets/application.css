@@ -28,7 +28,6 @@ header {
   padding-bottom: 40px;
   background: linear-gradient(to top right, aqua, dodgerblue, deepskyblue, white );   
   margin-bottom: 10px;
-  font-style: italic;
   text-shadow:2px 2px 3px black;
 }
 
@@ -54,7 +53,7 @@ header .headline {
 .nav-list {
     line-height: 100px;
     float: left;
-    margin-left: 300px;
+    margin-left: 330px;
     list-style: none;
     padding-top: 4px;
 }

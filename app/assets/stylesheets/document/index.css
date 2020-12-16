@@ -76,11 +76,10 @@
 .documents {
   font-size: 13px;
   height: 165px;
-  width: 125px;
+  width: 126px;
   margin: 5px;
   text-align: center;
   border: 4px groove lightsteelblue;
-  font-style: italic;
   background: linear-gradient(to top right, lightsteelblue, white);
 }
 
