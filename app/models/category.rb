@@ -15,9 +15,8 @@ class Category < ActiveHash::Base
     { id: 13, name: '指示書' },
     { id: 14, name: '届出書' },
     { id: 15, name: 'その他' }
- ]
+  ]
 
   include ActiveHash::Associations
   has_many :documents
-  
 end

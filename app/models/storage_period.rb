@@ -1,5 +1,5 @@
 class StoragePeriod < ActiveHash::Base
-self.data = [
+  self.data = [
     { id: 1, name: 'リストから選択してください' },
     { id: 2, name: 'なし' },
     { id: 3, name: '1年' },
@@ -12,10 +12,9 @@ self.data = [
     { id: 10, name: '8年' },
     { id: 11, name: '9年' },
     { id: 12, name: '10年' },
-    { id: 13, name: '10年以上' },
- ]
+    { id: 13, name: '10年以上' }
+  ]
 
   include ActiveHash::Associations
   has_many :documents
-  
 end

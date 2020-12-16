@@ -5,7 +5,7 @@ class DocumentsController < ApplicationController
   def index
     @documents = Document.includes(:user).order('created_at DESC')
     @search_params = document_search_params
-    @documents = Document.search(@search_params).joins(:user) 
+    @documents = Document.search(@search_params).joins(:user)
   end
 
   def new
@@ -28,7 +28,7 @@ class DocumentsController < ApplicationController
     @search_params = document_search_params
     @documents = Document.search(@search_params).joins(:user)
   end
-  
+
   def edit
     redirect_to action: :index unless current_user.id == @document.user.id
   end
@@ -48,7 +48,7 @@ class DocumentsController < ApplicationController
   end
 
   private
-  
+
   def document_params
     params.require(:document).permit(:title, :jurisdiction_department, :category_id, :storage_location, :storage_period_id, :disposal_date)
           .merge(user_id: current_user.id)
