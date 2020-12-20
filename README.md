@@ -93,4 +93,10 @@ $ rails s
 →http://localhost:3000  
 
 # 開発環境  
-## Ruby/Ruby on Rails/MySQL/JavaScript/Github/Heroku/Visual Studio Code  
+*Ruby  
+*Ruby on Rails  
+*MySQL  
+*JavaScript  
+*Github  
+*Heroku  
+*Visual Studio Code  
