@@ -1,0 +1,101 @@
+.user {
+  color: black;
+  font-size: 20px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.user-information {
+  margin: 30px;
+  font-size: 22px;
+}
+
+hr {
+  border: solid 1px deepskyblue;
+}
+
+.user-full-name {
+  margin: 40px 0 20px 0;
+}
+
+.user-email {
+  margin: 20px 0;
+}
+
+.user-department {
+  margin: 20px 0 30px;
+}
+
+
+.user-btn p {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 80px;
+  margin-top: 20px;
+}
+
+.user-edit-btn {
+  width: 150px;
+  height: 35px;
+  padding-top: 10px;
+  margin-top: 20px;
+  font-size: 15px;
+  border: 1px groove lightsteelblue;
+  background: linear-gradient(to top right, aqua, dodgerblue, deepskyblue, white ); 
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+  text-shadow:2px 2px 3px black
+}
+
+.user-edit-btn:hover {
+  text-shadow: none;
+  border: none;
+  color: white;
+  background: linear-gradient(to top right, aqua, deepskyblue, white );
+}
+
+.user-delete-btn {
+  width: 150px;
+  height: 35px;
+  margin-top: 10px;
+  padding-top: 10px;
+  font-size: 15px;
+  border: 1px groove lightsteelblue;
+  background: linear-gradient(to top right, aqua, dodgerblue, deepskyblue, white ); 
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+  text-shadow:2px 2px 3px black
+}
+
+.user-delete-btn:hover {
+  text-shadow: none;
+  border: none;
+  color: white;
+  background: linear-gradient(to top right, aqua, deepskyblue, white );
+}
+
+.user-back-btn {
+  width: 150px;
+  height: 35px;
+  padding-top: 10px;
+  text-align: center;
+  border: 1px groove lightsteelblue;
+  background: linear-gradient(to top right, aqua, dodgerblue, deepskyblue, white ); 
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+  border-radius: 25px;
+  text-shadow:2px 2px 3px black
+}
+
+.user-back-btn:hover{
+  text-shadow: none;
+  border: none;
+  color: white;
+  background: linear-gradient(to top right, aqua, deepskyblue, white );
+}

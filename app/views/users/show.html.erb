@@ -1,0 +1,24 @@
+<div class="user">
+  <div class="user-information">ユーザー情報</div>
+  <hr width="300">
+  <div class="user-full-name">
+    <p>ユーザー名</p>
+    <b><%= @user.name %></b>
+  </div>
+  <div class="user-email">
+    <p>メールアドレス</p>
+    <b><%= @user.email %></b>
+  </div>
+  <div class="user-department">
+    <p>所属部署</p>
+    <b><%= @user.department %></b>
+  </div>
+  <hr width="300">
+  <div class="user-btn">
+  <% if user_signed_in? && current_user.id == @user.id %>
+    <p><%= link_to "編集する", edit_user_path, method: :get, class:"user-edit-btn" %></p>
+    <p><%= link_to "削除する", user_path, method: :delete, class: "user-delete-btn" %></p>
+  <% end %>
+  <p><%= link_to "戻る", root_path, class:"user-back-btn"%></p>
+  </div>
+</div>

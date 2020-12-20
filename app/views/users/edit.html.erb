@@ -1,0 +1,16 @@
+<%= form_with model: @user, url: user_path, method: :patch, local: true do |f| %>
+<%= render 'users/error_messages', user: @user %>
+<div class="edit-user">
+  <div class="edit-user-information">ユーザー情報編集</div>
+    <%= f.label :name, "ユーザー名" %>
+    <%= f.text_field :name, class:"edit-name", placeholder:"氏名を入力してください" %>
+    <%= f.label :email, "メールアドレス" %>
+    <%= f.email_field :email, class:"edit-email", placeholder:"メールアドレスを入力してください" %>
+    <%= f.label :department, "所属部署" %>
+    <%= f.text_field :department, class:"edit-department", placeholder:"所属部署を入力してください" %>
+    <div class="edit-submit">
+    <%= f.submit "保存する" ,class:"edit-user-btn" %>
+    <%= link_to "戻る", root_path, class:"edit-back-btn"%>
+    </div>
+</div>
+<% end %>

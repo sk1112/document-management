@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   devise_for :user
-  resources :users
+  resources :users, only: [:show, :edit, :update, :destroy]
   root "documents#index"
   resources :documents do
     collection do
