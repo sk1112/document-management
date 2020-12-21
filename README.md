@@ -27,6 +27,10 @@
 # アプリケーションURL  
 ## https://document-mangement-01.herokuapp.com/  
 
+# Basic認証  
+## Basic認証ID：success  
+## Basic認証PASS：31793  
+
 # テスト用アカウント  
 ## ユーザー名：テストユーザー  
 ## メールアドレス：test@gmail.com  
@@ -46,6 +50,10 @@
 ## 廃棄が完了した文書や保管対象外となった文書をデータベースから削除  
 ### [![Image from Gyazo](https://i.gyazo.com/ca34c8bb24505ea325771d1245743cd5.gif)](https://gyazo.com/ca34c8bb24505ea325771d1245743cd5)  
 
+
+# 今後実装したい機能  
+## データ削除時などの確認ダイアログ表示機能  
+## AWS(Amazon EC2)へのアプリケーションデプロイ  
 
 # データベース設計  
 
