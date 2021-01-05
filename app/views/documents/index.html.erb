@@ -1,4 +1,10 @@
+<div class="user-greeting">
+  <% if user_signed_in? %>
+  <%= current_user.name%>さん、こんにちは！
+  <% end %>
+</div>
 <%= render 'documents/search_documents', document: @document %>
+<div class="documents-list">登録文書一覧</div>
 <div class="documents">
 <% if @documents.length !=0 %>
   <% @documents.each do |document| %>
