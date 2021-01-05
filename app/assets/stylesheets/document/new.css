@@ -15,47 +15,31 @@
   font-size: 15px;
 }
 
-label {
+.new-label {
   margin-right: 250px;
   width:100px;
-  float: left;
 }
 
-.title {
+.select-disposal {
+  width: 348px;
+  height: 35px;
+  margin-left: 2px;
+}
+
+p {
+  margin-left: 5px;
+}
+
+.new-field {
+  height: 35px;
+  width: 345px;
+  margin-bottom: 30px;
+}
+
+.new-select {
   height: 40px;
   width: 350px;
-  margin-bottom: 30px;
-}
-
-.jurisdiction-department {
-  height: 40px;
-  width: 350px;
-  margin-bottom: 30px;
-}
-
-.category-select{
-  height: 45px;
-  width: 360px;
-  margin-bottom: 30px;
-}
-
-.storage-period-select {
-  height: 45px;
-  width: 360px;
-  margin-bottom: 30px;
-}
-
-.storage_location {
-  height: 40px;
-  width: 350px;
-  resize:none;
-  margin-bottom: px;
-}
-
-.disposal-date {
-  width: 350px;
-  font-size: 15px;
-  margin-top: 20px;
+  margin: 0 0 30px 2px;
 }
 
 .document-btn {
@@ -70,13 +54,13 @@ label {
   cursor: pointer;
   height: 50px;
   width: 170px;
-  margin: 15px;
+  margin: 10px;
   font-size: 15px;
   border: 1px groove lightsteelblue;
   color: white;
   text-shadow: 2px 2px 3px black;
   background: linear-gradient(to top right, aqua, dodgerblue, deepskyblue, white );
-  border-radius: 25px;
+  border-radius: 5px;
 }
 
 .btn:hover {
@@ -90,7 +74,7 @@ label {
   cursor: pointer;
   width: 140px;
   height: 25px;
-  margin: 15px;
+  margin-top: 30px;
   padding: 12px 15px;
   text-align: center;
   border: 1px groove lightsteelblue;
@@ -99,7 +83,7 @@ label {
   text-decoration: none;
   text-shadow:2px 2px 3px black;
   background: linear-gradient(to top right, aqua, dodgerblue, deepskyblue, white );
-  border-radius: 25px;
+  border-radius: 5px;
 }
 
 .btn-back:hover {

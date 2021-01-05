@@ -17,7 +17,7 @@ ActiveRecord::Schema.define(version: 2020_12_05_215955) do
     t.string "jurisdiction_department", null: false
     t.integer "category_id", null: false
     t.integer "storage_period_id", null: false
-    t.string "storage_location", null: false
+    t.integer "storage_location_id", null: false
     t.date "disposal_date", null: false
     t.bigint "user_id", null: false
     t.datetime "created_at", precision: 6, null: false

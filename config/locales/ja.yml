@@ -15,7 +15,7 @@ ja:
        jurisdiction_department: '所管部署'
        category_id: 'カテゴリー'
        storage_period_id: '保存期間'
-       storage_location: '保管場所'
+       storage_location_id: '保管場所'
        disposal_date: '廃棄年月日'
  errors:
     format: "%{attribute}%{message}"

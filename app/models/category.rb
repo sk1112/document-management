@@ -14,7 +14,8 @@ class Category < ActiveHash::Base
     { id: 12, name: '依頼書' },
     { id: 13, name: '指示書' },
     { id: 14, name: '届出書' },
-    { id: 15, name: 'その他' }
+    { id: 15, name: 'リスト' },
+    { id: 16, name: 'その他' }
   ]
 
   include ActiveHash::Associations

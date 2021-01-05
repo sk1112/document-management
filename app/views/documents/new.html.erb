@@ -2,20 +2,20 @@
 <%= render 'documents/error_messages', document: @document %>
   <div class="document-form">文書新規登録</div>
     <div class="document-container">
-      <%= f.label :title, "文書名" %>
-      <%= f.text_field :title, class:"title", placeholder:"文書名を入力してください" %>
-      <%= f.label :jurisdiction_department, "所管部署" %>
-      <%= f.text_field :jurisdiction_department, class:"jurisdiction-department", placeholder:"所管部署を入力してください" %>
-      <%= f.label :category_id, "カテゴリー" %>
-      <%= f.collection_select(:category_id, Category.all, :id, :name, {}, {class:"category-select"}) %>
-      <%= f.label :storage_period_id, "保存期限" %>
-      <%= f.collection_select(:storage_period_id, StoragePeriod.all, :id, :name, {}, {class:"storage-period-select"}) %>
-      <%= f.label :storage_location, "保管場所" %>
-      <%= f.text_field :storage_location, class:"storage_location", placeholder:"保管場所を入力してください" %>
+      <%= f.label :title, "文書名", class: "new-label" %>
+      <%= f.text_field :title, class:"title", class:"new-field", placeholder:"文書名を入力してください" %>
+      <%= f.label :jurisdiction_department, "所管部署", class: "new-label" %>
+      <%= f.text_field :jurisdiction_department, class:"new-field", placeholder:"所管部署を入力してください" %>
+      <%= f.label :category_id, "カテゴリー", class: "new-label" %>
+      <%= f.collection_select(:category_id, Category.all, :id, :name, {}, {class:"new-select"}) %>
+      <%= f.label :storage_period_id, "保存期限", class: "new-label" %>
+      <%= f.collection_select(:storage_period_id, StoragePeriod.all, :id, :name, {}, {class:"new-select"}) %>
+      <%= f.label :storage_location, "保管場所", class: "new-label" %>
+      <%= f.collection_select(:storage_location_id, StorageLocation.all, :id, :name, {}, {class:"new-select"}) %>
       <div class="disposal-date">
       <p>廃棄年月日</p>
       <%= raw sprintf(
-            f.date_select(
+            f.date_field(
               :disposal_date,
               class:"select-disposal",
               use_month_numbers: true,
@@ -23,7 +23,7 @@
               start_year: 2020,
               end_year: (Time.now.year + 50),
               date_separator: '%s'),
-            '年 ', '月 ') + '日' %>
+            '年 ', '月 ') %>
      </div>
      <div class="document-btn">
      <%= f.submit "登録する" ,class:"btn" %>

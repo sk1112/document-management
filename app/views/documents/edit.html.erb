@@ -2,28 +2,28 @@
   <div class="document-edit-form">文書情報編集</div>
     <div class="document-edit-container">
       <%= f.label :title, "文書名" %>
-      <%= f.text_field :title, class:"title", placeholder:"文書名を入力してください" %>
-      <%= f.label :jurisdiction_department, "所管部署" %>
-      <%= f.text_field :jurisdiction_department, class:"jurisdiction-department", placeholder:"所管部署を入力してください" %>
+      <%= f.text_field :title, class:"edit-field", placeholder:"文書名を入力してください" %>
+      <%= f.label :jurisdiction_department_id, "所管部署" %>
+      <%= f.text_field :jurisdiction_department, class:"edit-field", placeholder:"所管部署を入力してください" %>
       <%= f.label :category_id, "カテゴリー" %>
-      <%= f.collection_select(:category_id, Category.all, :id, :name, {}, {class:"category-select"}) %>
+      <%= f.collection_select(:category_id, Category.all, :id, :name, {}, {class:"edit-select"}) %>
       <%= f.label :storage_period_id, "保存期限" %>
-      <%= f.collection_select(:storage_period_id, StoragePeriod.all, :id, :name, {}, {class:"storage-period-select"}) %>
-      <%= f.label :storage_location, "保管場所" %>
-      <%= f.text_field :storage_location, class:"storage_location", placeholder:"保管場所を入力してください" %>
-      <div class="edit-document-disposal-date">
+      <%= f.collection_select(:storage_period_id, StoragePeriod.all, :id, :name, {}, {class:"edit-select"}) %>
+      <%= f.label :storage_location_id, "保管場所" %>
+      <%= f.collection_select(:storage_location_id, StorageLocation.all, :id, :name, {}, {class:"edit-select"}) %>
+      <div class="edit-disposal-date">
       <p>廃棄年月日</p>
       <%= raw sprintf(
-            f.date_select(
+            f.date_field(
               :disposal_date,
-              class:"edit-select-disposal",
+              class:"edit-date-field",
               use_month_numbers: true,
               prompt:'--',
               start_year: 2020,
               end_year: (Time.now.year + 50),
               date_separator: '%s'),
-            '年 ', '月 ') + '日' %>
-     </div>
+            '年 ', '月 ')  %>
+      </div>
      <div class="update">
        <%= f.submit "保存する" ,class:"update-btn" %>
        <%= link_to "戻る", document_path(@document.id), class:"back-btn"%>

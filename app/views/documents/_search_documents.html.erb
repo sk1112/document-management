@@ -1,32 +1,17 @@
+<%= search_form_for @d, url: search_documents_path do |f| %>
 <div class="search-documents">
-  <%= form_with(scope: :search, url: search_documents_path, method: :get, local: true) do |f| %>
-  <div class="search-grupe">
-    <label class="search-label">文書名</label>
-    <div class="search-title">
-      <%= f.text_field :title, placeholder: '文書名を入力してください', value: @search_params[:title], class: "search-title-input" %>
-    </div>
+  <div class="search-select">
+    <%= f.collection_select :title_eq, @document_title, :title, :title, include_blank: '文書名を選択する' %>
   </div>
-  <div class="search-grupe">
-    <label class="search-label">廃棄年月日</label>
-    <div class="search-disposal-date" >
-      <%= f.date_field :disposal_date_from, value: @search_params[:disposal_date_from], class:"search-disposal-date-input" %> ~
-      <%= f.date_field :disposal_date_to, value: @search_params[:disposal_date_to], class:"search-disposal-date-input" %>
-    </div>
+  <div class="search-select">
+    <%= f.collection_select :jurisdiction_department_eq, @document_jurisdiction_department, 
+                            :jurisdiction_department, :jurisdiction_department, include_blank: '所管部署を選択する' %>
   </div>
-  <div class="search-grupe">
-    <label class="search-label">所管部署</label>
-    <div class="search-jurisdiction-department">
-      <%= f.text_field :jurisdiction_department, placeholder: '所管部署を入力してください', value: @search_params[:jurisdiction_department], class: "search-jurisdiction-department-input" %>
-    </div>
+  <div class="search-select">
+    <%= f.collection_select :disposal_date_eq, @document_disposal_date, :disposal_date, :disposal_date, include_blank: '廃棄年月日を選択する' %>
   </div>
-  <div class="search-grupe">
-    <label class="search-label">保管場所</label>
-    <div class="search-storage-location" >
-      <%= f.text_field :storage_location, placeholder: '保管場所を入力してください', value: @search_params[:storage_location], class:"search-storage-location-input" %>
-    </div>
+  <div class="submit-btn" >
+    <%= submit_tag  "\uF002", class: "search-btn" %>
   </div>
-  <div class="search-btn" >
-    <%= submit_tag '文書検索', class: "search-submit-btn" %>
-  </div>
-  <% end %>
 </div>
+<% end %>

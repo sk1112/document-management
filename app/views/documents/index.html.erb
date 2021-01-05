@@ -1,10 +1,10 @@
 <%= render 'documents/search_documents', document: @document %>
-<div class="document-contents">
-  <% @documents.each do |document| %>
-    <div class="documents">
-      <%= link_to document.title, document_path(document.id), method: :get, class: "document-column" %>
-      <%= link_to document.jurisdiction_department, document_path(document.id), method: :get, class: "document-column" %>
-      <%= link_to document.disposal_date, document_path(document.id), method: :get, class: "document-column" %> 
-    </div>
-  <% end %>
+<div class="documents">
+<% @documents.each do |document| %>
+  <div class="document">
+    <%= link_to document.title, document_path(document.id), method: :get, class: "document-contents" %>
+    <%= link_to document.jurisdiction_department, document_path(document.id), method: :get, class: "document-contents" %>
+    <%= link_to document.disposal_date, document_path(document.id), method: :get, class: "document-contents" %> 
+  </div>
+<% end %>
 </div>

@@ -4,37 +4,18 @@ class Document < ApplicationRecord
   extend ActiveHash::Associations::ActiveRecordExtensions
   belongs_to :category
   belongs_to :storage_period
+  belongs_to :storage_location
 
   with_options presence: true do
     validates :title, length: { maximum: 10 }
     validates :jurisdiction_department
-    validates :storage_location
+    validates :disposal_date
     validates :user_id
   end
+
   with_options numericality: { other_than: 1, message: 'を選択してください' } do
     validates :category_id
     validates :storage_period_id
+    validates :storage_location_id
   end
-
-  scope :search, lambda { |search_params|
-    return if search_params.blank?
-
-    title_like(search_params[:title])
-      .jurisdiction_department_like(search_params[:jurisdiction_department])
-      .disposal_date_from(search_params[:disposal_date_from])
-      .disposal_date_to(search_params[:disposal_date_to])
-      .storage_location_like(search_params[:storage_location])
-  }
-
-  scope :title_like, ->(title) { where('title LIKE ?', "%#{title}%") if title.present? }
-  scope :jurisdiction_department_like, lambda { |jurisdiction_department|
-                                         if jurisdiction_department.present?
-                                           where('jurisdiction_department LIKE ?', "%#{jurisdiction_department}%")
-                                         end
-                                       }
-  scope :disposal_date_from, ->(from) { where('? <= disposal_date', from) if from.present? }
-  scope :disposal_date_to, ->(to) { where('disposal_date <= ?', to) if to.present? }
-  scope :storage_location_like, lambda { |storage_location|
-                                  where('storage_location LIKE ?', "%#{storage_location}%") if storage_location.present?
-                                }
 end

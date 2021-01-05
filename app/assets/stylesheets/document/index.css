@@ -1,70 +1,49 @@
-.search-groupe {
+.search-documents {
   display: flex;
   align-items: center;
-  flex-direction: column;
-  text-align: left;
+  flex-direction: row;
 }
 
-.search-label {
-  padding: 13px 0 0 10px;
-  margin: 0 40px 0 160px;
-  text-align: right;
+.search-select {
+  margin: 10px 20px 0;
 }
 
-.search-title-input {
-  width: 260px;
-  height: 30px;
-  margin: 5px 0;
+select {
+  width: 265px;
+  height: 50px;
   border: 2px groove lightsteelblue;
+  margin: 20px 0 30px 0;
+  border-radius: 5px;
+  box-shadow: 2px -2px lightsteelblue;
 }
-
-.search-jurisdiction-department-input {
-  width: 260px;
-  height: 30px;
-  margin: 5px 0;
-  border: 2px groove lightsteelblue;
-}
-
-.search-disposal-date-input {
-  width: 260px;
-  height: 30px;
-  margin: 5px 0;
-  border: 2px groove lightsteelblue;
-}
-
-.search-storage-location-input {
-  width: 260px;
-  height: 30px;
-  margin: 5px 0;
-  border: 2px groove lightsteelblue;
+.none-result {
+  margin: 30px 0 100px 380px;
+  font-size: 20px;
 }
 
 .search-btn {
-  margin: 20px 0 20px 410px;
-}
-
-.search-submit-btn {
   cursor: pointer;
-  height: 40px;
+  height: 50px;
+  margin: 10px 0 10px 10px;
   font-family: FontAwesome;
-  width: 180px;
+  width: 70px;
   font-size: 15px;
   background: linear-gradient(to top right, aqua, dodgerblue, deepskyblue, white );
   border: 2px groove lightsteelblue;
   color: white;
   text-shadow:2px 2px 3px black;
-  border-radius: 25px;
   padding-bottom: 2px;
+  border-radius: 5px;
 }
 
-.search-submit-btn:hover {
+.search-btn:hover {
   text-shadow: none;
   border: none;
   color: white;
   background: linear-gradient(to top right, aqua, deepskyblue, white );
 }
 
-.document-contents  {
+.documents  {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
@@ -73,23 +52,23 @@
   width: 100%;
 }
 
-.documents {
-  font-size: 13px;
-  height: 170px;
-  width: 126px;
-  margin: 5px;
+.document {
+  font-size: 14px;
+  height: 190px;
+  width: 145px;
+  margin: 20px 7px;
   text-align: center;
   border: 4px groove lightsteelblue;
   background: linear-gradient(to top right, lightsteelblue, white);
 }
 
-.documents:hover {
+.document:hover {
   border: none;
 }
 
-.document-column {
+.document-contents {
   color: black;
-  padding-top: 25px;
+  padding-top: 30px;
   font-weight: normal;
   display: flex;
   text-decoration: none;

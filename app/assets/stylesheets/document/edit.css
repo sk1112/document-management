@@ -22,38 +22,22 @@ label {
   float: left;
 }
 
-.title {
+.edit-field {
+  height: 35px;
+  width: 345px;
+  margin-bottom: 30px;
+}
+
+.edit-select {
   height: 40px;
   width: 350px;
-  margin-bottom: 30px;
+  margin: 0 0 30px 2px;
 }
 
-.jurisdiction-department {
-  height: 40px;
-  width: 350px;
-  margin-bottom: 30px;
-}
-
-.category-select{
-  height: 45px;
-  width: 360px;
-  margin-bottom: 30px;
-}
-
-.storage-period-select {
-  height: 45px;
-  width: 360px;
-  margin-bottom: 30px;
-}
-
-.storage_location {
-  height: 40px;
-  width: 350px
-}
-
-.edit-document-disposal-date {
-  width: 350px;
-  margin: 30px;
+.edit-date-field {
+  width: 348px;
+  height: 35px;
+  margin: 0 0 20px 3px;
 }
 
 .update {
@@ -61,7 +45,7 @@ label {
   flex-direction: column;
   align-items: center;
   height: 200px;
-  margin-bottom: 160px;
+  margin-bottom: 50px;
 }
 
 .update-btn {
@@ -73,7 +57,7 @@ label {
   border: 1px groove lightsteelblue;
   background: linear-gradient(to top right, aqua, dodgerblue, deepskyblue, white ); 
   color: white;
-  border-radius: 25px;
+  border-radius: 5px;
   text-shadow:2px 2px 3px black;
 }
 
@@ -88,7 +72,7 @@ label {
   cursor: pointer;
   width: 160px;
   height: 40px;
-  margin-top: 30px;
+  margin-top: 20px;
   padding-top: 12px;
   text-align: center;
   border: 1px groove lightsteelblue;
@@ -96,7 +80,7 @@ label {
   color: white;
   font-size: 15px;
   text-decoration: none;
-  border-radius: 25px;
+  border-radius: 5px;
   text-shadow: 2px 2px 3px black;
 }
 

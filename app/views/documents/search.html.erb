@@ -1,10 +1,14 @@
 <%= render 'documents/search_documents', document: @document %>
-<div class="document-contents">
-  <% @documents.each do |document| %>
-    <div class="documents">
-      <%= link_to document.title, document_path(document.id), method: :get, class: "document-column" %>
-      <%= link_to document.jurisdiction_department, document_path(document.id), method: :get, class: "document-column" %>
-      <%= link_to document.disposal_date, document_path(document.id), method: :get, class: "document-column" %>
+<div class="documents">
+<% if @results.length !=0 %>
+  <% @results.each do |result| %>
+    <div class="document">
+      <%= link_to result.title, document_path(result.id), method: :get, class: "document-contents" %>
+      <%= link_to result.jurisdiction_department, document_path(result.id), method: :get, class: "document-contents" %>
+      <%= link_to result.disposal_date, document_path(result.id), method: :get, class: "document-contents" %>
     </div>
   <% end %>
+<% else %>
+<div class="none-result">該当する文書が見つかりません</div>
+<% end %>
 </div>
