@@ -47,7 +47,7 @@ hr {
   background: linear-gradient(to top right, aqua, dodgerblue, deepskyblue, white ); 
   color: white;
   text-decoration: none;
-  border-radius: 25px;
+  border-radius: 5px;
   text-shadow:2px 2px 3px black
 }
 
@@ -68,7 +68,7 @@ hr {
   background: linear-gradient(to top right, aqua, dodgerblue, deepskyblue, white ); 
   color: white;
   text-decoration: none;
-  border-radius: 25px;
+  border-radius: 5px;
   text-shadow:2px 2px 3px black
 }
 
@@ -89,7 +89,7 @@ hr {
   color: white;
   font-size: 15px;
   text-decoration: none;
-  border-radius: 25px;
+  border-radius: 5px;
   text-shadow:2px 2px 3px black
 }
 

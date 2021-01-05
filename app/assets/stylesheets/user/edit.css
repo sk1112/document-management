@@ -53,7 +53,7 @@ label {
   border: 1px groove lightsteelblue;
   background: linear-gradient(to top right, aqua, dodgerblue, deepskyblue, white ); 
   color: white;
-  border-radius: 25px;
+  border-radius: 5px;
   text-shadow:2px 2px 3px black;
 }
 
@@ -75,7 +75,7 @@ label {
   color: white;
   font-size: 15px;
   text-decoration: none;
-  border-radius: 25px;
+  border-radius: 5px;
   text-shadow:2px 2px 3px black
 }
 
