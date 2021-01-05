@@ -53,8 +53,9 @@ header .headline {
 .nav-list {
     line-height: 110px;
     float: left;
-    margin-left: 100px;
+    margin-left: 70px;
     list-style: none;
+    font-size: 18px;
 }
 
 .nav-list-item {
