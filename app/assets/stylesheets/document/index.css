@@ -16,8 +16,16 @@ select {
   border-radius: 5px;
   box-shadow: 2px -2px lightsteelblue;
 }
+
+.none-documents {
+  height: 100px;
+  margin: 50px 0 50px 380px;
+  font-size: 20px;
+}
+
 .none-result {
-  margin: 30px 0 100px 380px;
+  height: 100px;
+  margin: 50px 0 50px 380px;
   font-size: 20px;
 }
 
