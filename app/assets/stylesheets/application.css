@@ -105,9 +105,9 @@ header .headline {
 
 footer {
   width: 100%;
-  height: 80px; 
+  height: 55px; 
   text-align: center;
-  padding-top: 50px;
+  padding-top: 30px;
   background: linear-gradient(to top right, aqua, dodgerblue, deepskyblue, white ); 
   margin-top: 10px;
 }

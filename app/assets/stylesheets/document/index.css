@@ -18,14 +18,14 @@ select {
 }
 
 .none-document {
-  height: 100px;
-  margin: 50px 0 50px 380px;
+  height: 120px;
+  margin: 65px 0 50px 380px;
   font-size: 20px;
 }
 
 .none-result {
-  height: 100px;
-  margin: 50px 0 50px 380px;
+  height: 120px;
+  margin: 65px 0 50px 380px;
   font-size: 20px;
 }
 
