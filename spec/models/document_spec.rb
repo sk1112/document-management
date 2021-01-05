@@ -39,9 +39,9 @@ RSpec.describe Document, type: :model do
           expect(@document.errors[:storage_period_id]).not_to include('を選択してください')
         end
 
-        it 'storage_locationが入力されていない場合は登録できないこと' do
-          @document.storage_location = ''
-          expect(@document.errors[:storage_location]).not_to include('を入力してください')
+        it 'storage_location_idが1を選択されていない場合は登録できないこと' do
+          @document.storage_location_id = 1
+          expect(@document.errors[:storage_location_id]).not_to include('を入力してください')
         end
 
         it 'disposal_dateが入力されていない場合は登録できないこと' do
