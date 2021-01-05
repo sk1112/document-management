@@ -45,17 +45,16 @@ header .headline {
 .headline-name {
   text-decoration: none;
   color: white;
-  font-size: 20px;
+  font-size: 19px;
   font-family: monospace;
 
 }
 
 .nav-list {
-    line-height: 100px;
+    line-height: 110px;
     float: left;
-    margin-left: 330px;
+    margin-left: 100px;
     list-style: none;
-    padding-top: 4px;
 }
 
 .nav-list-item {
