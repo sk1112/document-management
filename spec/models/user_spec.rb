@@ -19,8 +19,8 @@ RSpec.describe User, type: :model do
           expect(@user.errors[:name]).not_to include('を入力してください')
         end
 
-        it 'nameが17文字以上で入力されている場合は登録できないこと' do
-          @user.name = 'abcdefghijklmnopqrstuvwxyz'
+        it 'nameが9文字以上で入力されている場合は登録できないこと' do
+          @user.name = 'abcdefghi'
           expect(@user.errors[:name]).not_to include('を入力してください')
         end
 

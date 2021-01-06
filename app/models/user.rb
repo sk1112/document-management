@@ -9,7 +9,7 @@ class User < ApplicationRecord
   validates :password, format: { with: /\A(?=.*?[a-z])(?=.*?\d)[a-z\d]+\z/i.freeze, message: 'は半角英数字です', allow_blank: true },
                        on: :update, allow_blank: true
   with_options presence: true do
-    validates :name, length: { maximum: 16 }
+    validates :name, length: { maximum: 8, message: '8文字以内で入力してください', allow_blank: true }
     validates :password_confirmation, on: :update, allow_blank: true
     validates :department
   end
