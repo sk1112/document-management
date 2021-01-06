@@ -6,15 +6,15 @@
 ## 文書の保管や廃棄に関する業務を管理するアプリケーション  
 
 # 開発環境  
-## HTML5  
-## CSS3  
-## JavaScript  
-## Ruby  
-## Ruby on Rails  
-## MySQL  
-## Github  
-## AWS  
-## Visual Studio Code  
+* HTML5  
+* CSS3  
+* JavaScript  
+* Ruby  
+* Ruby on Rails  
+* MySQL  
+* Github  
+* AWS  
+* Visual Studio Code  
 
 # 目指した課題解決  
 ## 業務で文書を大量に使用する自治体や一部の企業を対象に、文書の保管・廃棄業務に関する情報をデータベースで管理することにより、文書の保管場所や廃棄対象の文書を探し出す時間と労力を削減して業務効率化を図ることを目指しました。  
@@ -108,10 +108,10 @@
 ## [![Image from Gyazo](https://i.gyazo.com/002d6ace732c8e6eca7fdeda399ee0e6.png)](https://gyazo.com/002d6ace732c8e6eca7fdeda399ee0e6)  
 
 # ローカル環境での動作方法  
-$ git clone https://github.com/sk1112/document-management.git  
-$ cd document-management  
-$ bundle install  
-$ rails db:create  
-$ rails db:migrate  
-$ rails s  
-→http://localhost:3000  
+* % git clone https://github.com/sk1112/document-management.git  
+* % cd document-management  
+* % bundle install  
+* % rails db:create  
+* % rails db:migrate  
+* % rails s  
+* →http://localhost:3000  
