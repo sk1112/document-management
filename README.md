@@ -39,9 +39,9 @@
 
 # アプリケーション使用方法  
 ## 初期画面  
-###  [![Image from Gyazo](https://i.gyazo.com/45e1e896b9064348fb1e5dc0c295e8de.png)](https://gyazo.com/45e1e896b9064348fb1e5dc0c295e8de)  
+###  [![Image from Gyazo](https://i.gyazo.com/242ff98522de5ac35a3b62a1875fb8c3.png)](https://gyazo.com/242ff98522de5ac35a3b62a1875fb8c3)  
 ## 上記テスト用アカウントでログイン  
-###  [![Image from Gyazo](https://i.gyazo.com/3d84dc3aa59dd04704664999b13c887f.gif)](https://gyazo.com/3d84dc3aa59dd04704664999b13c887f)  
+###  [![Image from Gyazo](https://i.gyazo.com/e9af656f3c71e53fd213b3f03412fea8.gif)](https://gyazo.com/e9af656f3c71e53fd213b3f03412fea8)  
 ## 管理対象の文書を登録  
 ###  [![Image from Gyazo](https://i.gyazo.com/a4b9db03d5f7709456698346f01d082f.gif)](https://gyazo.com/a4b9db03d5f7709456698346f01d082f)  
 ## 登録した文書の詳細を確認  
