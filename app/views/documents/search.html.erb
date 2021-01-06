@@ -4,6 +4,7 @@
   <% end %>
 </div>
 <%= render 'documents/search_documents', document: @document %>
+<div class="documents-list">登録文書一覧</div>
 <div class="documents">
 <% if @results.length !=0 %>
   <% @results.each do |result| %>
