@@ -1,6 +1,6 @@
 <%= form_with model: @document, url: documents_path, method: :post, local: true do |f| %>
 <%= render 'documents/error_messages', document: @document %>
-  <div class="document-form">文書新規登録</div>
+  <div class="document-form">新規文書登録</div>
     <div class="document-container">
       <%= f.label :title, "文書名", class: "new-label" %>
       <%= f.text_field :title, class:"title", class:"new-field", placeholder:"文書名を入力してください" %>

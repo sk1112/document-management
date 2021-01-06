@@ -37,8 +37,10 @@
 ## パスワード：success1112  
 
 # アプリケーション使用方法  
+## 初期画面  
+### [![Image from Gyazo](https://i.gyazo.com/45e1e896b9064348fb1e5dc0c295e8de.png)](https://gyazo.com/45e1e896b9064348fb1e5dc0c295e8de
 ## 上記テスト用アカウントでログイン  
-###  [![Image from Gyazo](https://i.gyazo.com/d3c06e606b79bed55ffb606ce966d696.gif)](https://gyazo.com/d3c06e606b79bed55ffb606ce966d696)  
+###  [![Image from Gyazo](https://i.gyazo.com/3d84dc3aa59dd04704664999b13c887f.gif)](https://gyazo.com/3d84dc3aa59dd04704664999b13c887f)
 ## 管理したい文書をデータベースに登録  
 ### [![Image from Gyazo](https://i.gyazo.com/5e6a9dfda2716e891bb62cddac8d8638.gif)](https://gyazo.com/5e6a9dfda2716e891bb62cddac8d8638)  
 ## 文書の保管場所や廃棄年月日を指定して文書の情報を検索  
