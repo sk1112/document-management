@@ -1,5 +1,6 @@
 # アプリケーション名  
 ## document-management  
+###  [![Image from Gyazo](https://i.gyazo.com/df3bb33496a06ee6a024bc583f4b9cec.jpg)](https://gyazo.com/df3bb33496a06ee6a024bc583f4b9cec)
 
 # アプリケーションの概要  
 ## 文書の保管や廃棄に関する業務を管理するアプリケーション  
@@ -38,7 +39,7 @@
 
 # アプリケーション使用方法  
 ## 初期画面  
-###  [![Image from Gyazo](https://i.gyazo.com/45e1e896b9064348fb1e5dc0c295e8de.png)](https://gyazo.com/45e1e896b9064348fb1e5dc0c295e8de  
+###  [![Image from Gyazo](https://i.gyazo.com/45e1e896b9064348fb1e5dc0c295e8de.png)](https://gyazo.com/45e1e896b9064348fb1e5dc0c295e8de)  
 ## 上記テスト用アカウントでログイン  
 ###  [![Image from Gyazo](https://i.gyazo.com/3d84dc3aa59dd04704664999b13c887f.gif)](https://gyazo.com/3d84dc3aa59dd04704664999b13c887f)  
 ## 管理対象の文書を登録  
