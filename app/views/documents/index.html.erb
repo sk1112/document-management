@@ -4,9 +4,9 @@
   <% end %>
 </div>
 <%= render 'documents/search_documents', document: @document %>
+<% if @documents.length !=0 %>
 <div class="documents-list">登録文書一覧</div>
 <div class="documents">
-<% if @documents.length !=0 %>
   <% @documents.each do |document| %>
     <div class="document">
       <%= link_to document.title, document_path(document.id), method: :get, class: "document-contents" %>
