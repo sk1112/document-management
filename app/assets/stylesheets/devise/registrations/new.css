@@ -19,28 +19,11 @@ label {
   font-size: 14px;
 }
 
-.name {
+.registration-items {
   height: 45px;
   width: 350px;
   margin-bottom: 30px;
-}
-
-.department {
-  height: 45px;
-  width: 350px;
-  margin-bottom: 30px;
-}
-
-.registration-email {
-  height: 45px;
-  width: 350px;
-  margin-bottom: 30px;
-}
-
-.registration-password {
-  height: 45px;
-  width: 350px;
-  margin-bottom: 30px;
+  font-size: 15px;
 }
 
 .btn-submit {

@@ -25,7 +25,7 @@
 ## 文書廃棄期限残日数表示機能  
 
 # アプリケーションURL  
-## https://document-mangement-01.herokuapp.com/  
+## http://54.249.148.123/
 
 # Basic認証  
 ## Basic認証ID：success  
@@ -53,7 +53,6 @@
 
 # 今後実装したい機能  
 ## データ削除時などの確認ダイアログ表示機能  
-## AWS(Amazon EC2)へのアプリケーションデプロイ  
 
 # データベース設計  
 
@@ -101,12 +100,12 @@ $ rails s
 →http://localhost:3000  
 
 # 開発環境  
-*HTML  
-*CSS  
+*HTML5  
+*CSS3  
 *JavaScript  
 *Ruby  
 *Ruby on Rails  
 *MySQL  
 *Github  
-*Heroku  
+*AWS(EC2)  
 *Visual Studio Code  
