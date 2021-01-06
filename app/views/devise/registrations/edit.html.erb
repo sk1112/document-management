@@ -10,7 +10,7 @@
     <%= f.email_field :email, class:"registration-email", placeholder:"メールアドレスを入力してください" %>
     <div class="btn-submit">
     <%= f.submit "保存する" ,class:"registration-btn" %>
-    <%= link_to "戻る", root_path, class:"btn-top-page"%>
+    <%= link_to "戻る", user_path(current_user), class:"btn-top-page"%>
     </div>
 </div>
 <% end %>

@@ -10,7 +10,7 @@
     <%= f.text_field :department, class:"edit-department", placeholder:"所属部署を入力してください" %>
     <div class="edit-submit">
     <%= f.submit "保存する" ,class:"edit-user-btn" %>
-    <%= link_to "戻る", root_path, class:"edit-back-btn"%>
+    <%= link_to "戻る", user_path(current_user), class:"edit-back-btn"%>
     </div>
 </div>
 <% end %>
