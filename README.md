@@ -1,9 +1,9 @@
 # アプリケーション名  
-## document-management  
+## document-management(文書保管・廃棄管理システム)  
 ###  [![Image from Gyazo](https://i.gyazo.com/df3bb33496a06ee6a024bc583f4b9cec.jpg)](https://gyazo.com/df3bb33496a06ee6a024bc583f4b9cec)
 
 # アプリケーションの概要  
-## 文書の保管や廃棄に関する業務を管理するアプリケーション  
+## 文書の保管場所や廃棄年月日を効率的に管理するアプリケーション  
 
 # 開発環境  
 * HTML5  
