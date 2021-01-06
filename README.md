@@ -38,19 +38,20 @@
 
 # アプリケーション使用方法  
 ## 初期画面  
-### [![Image from Gyazo](https://i.gyazo.com/45e1e896b9064348fb1e5dc0c295e8de.png)](https://gyazo.com/45e1e896b9064348fb1e5dc0c295e8de  
+###  [![Image from Gyazo](https://i.gyazo.com/45e1e896b9064348fb1e5dc0c295e8de.png)](https://gyazo.com/45e1e896b9064348fb1e5dc0c295e8de  
 ## 上記テスト用アカウントでログイン  
 ###  [![Image from Gyazo](https://i.gyazo.com/3d84dc3aa59dd04704664999b13c887f.gif)](https://gyazo.com/3d84dc3aa59dd04704664999b13c887f)  
 ## 管理対象の文書を登録  
-### [![Image from Gyazo](https://i.gyazo.com/a4b9db03d5f7709456698346f01d082f.gif)](https://gyazo.com/a4b9db03d5f7709456698346f01d082f)  
+###  [![Image from Gyazo](https://i.gyazo.com/a4b9db03d5f7709456698346f01d082f.gif)](https://gyazo.com/a4b9db03d5f7709456698346f01d082f)  
 ## 登録した文書の詳細を確認  
-### [![Image from Gyazo](https://i.gyazo.com/e6afd619add20158b4cf27497ff121c9.gif)](https://gyazo.com/e6afd619add20158b4cf27497ff121c9)  
+###  [![Image from Gyazo](https://i.gyazo.com/e6afd619add20158b4cf27497ff121c9.gif)](https://gyazo.com/e6afd619add20158b4cf27497ff121c9)  
 ## 文書の所管部署や廃棄年月日を指定して文書の情報を検索  
-### [![Image from Gyazo](https://i.gyazo.com/51ab71cce61bb566abc993b4d1d65172.gif)](https://gyazo.com/51ab71cce61bb566abc993b4d1d65172)  
+###  [![Image from Gyazo](https://i.gyazo.com/84685fd135547292f3cfc525a61a8b59.gif)](https://gyazo.com/84685fd135547292f3cfc525a61a8b59)  
+###  [![Image from Gyazo](https://i.gyazo.com/7f462e8fa9526d1e25ec0aaa09dab320.gif)](https://gyazo.com/7f462e8fa9526d1e25ec0aaa09dab320)  
 ## 必要に応じて廃棄期限残日数を確認  
-### [![Image from Gyazo](https://i.gyazo.com/e1eb4feaa65fd5346dcf849e81b44809.gif)](https://gyazo.com/e1eb4feaa65fd5346dcf849e81b44809)  
+###  [![Image from Gyazo](https://i.gyazo.com/e1eb4feaa65fd5346dcf849e81b44809.gif)](https://gyazo.com/e1eb4feaa65fd5346dcf849e81b44809)  
 ## 廃棄が完了した文書や保管対象外となった文書を削除  
-### [![Image from Gyazo](https://i.gyazo.com/72e0ee2d268183f599a1110588f08662.gif)](https://gyazo.com/72e0ee2d268183f599a1110588f08662  
+###  [![Image from Gyazo](https://i.gyazo.com/72e0ee2d268183f599a1110588f08662.gif)](https://gyazo.com/72e0ee2d268183f599a1110588f08662)  
 
 
 # 今後実装したい機能  
