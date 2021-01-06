@@ -6,9 +6,9 @@
 <div class="session">
   <div class="session-contents">ユーザーログイン</div>
     <%= f.label :email, "メールアドレス" %>
-    <%= f.email_field :email, class:"email", placeholder:"メールアドレスを入力してください" %>
+    <%= f.email_field :email, class:"session-items", placeholder:"メールアドレスを入力してください" %>
     <%= f.label :password, "パスワード" %>
-    <%= f.password_field :password, class:"password", placeholder:"パスワードを入力してください" %>
+    <%= f.password_field :password, class:"session-items", placeholder:"パスワードを入力してください" %>
     <div class="session-btn">
     <%= f.submit "ログイン" ,class:"login-btn" %>
     <%= link_to "戻る", root_path, class:"session-back-btn"%>

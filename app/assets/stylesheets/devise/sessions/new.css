@@ -19,16 +19,11 @@ label {
   font-size: 14px;
 }
 
-.email {
+.session-items {
   height: 45px;
   width: 350px;
   margin-bottom: 30px;
-}
-
-.password {
-  height: 45px;
-  width: 350px;
-  margin-bottom: 30px;
+  font-size: 15px;
 }
 
 .session-btn {
