@@ -41,15 +41,15 @@
 ### [![Image from Gyazo](https://i.gyazo.com/45e1e896b9064348fb1e5dc0c295e8de.png)](https://gyazo.com/45e1e896b9064348fb1e5dc0c295e8de
 ## 上記テスト用アカウントでログイン  
 ###  [![Image from Gyazo](https://i.gyazo.com/3d84dc3aa59dd04704664999b13c887f.gif)](https://gyazo.com/3d84dc3aa59dd04704664999b13c887f)
-## 管理したい文書をデータベースに登録  
-### [![Image from Gyazo](https://i.gyazo.com/5e6a9dfda2716e891bb62cddac8d8638.gif)](https://gyazo.com/5e6a9dfda2716e891bb62cddac8d8638)  
-## 文書の保管場所や廃棄年月日を指定して文書の情報を検索  
+## 管理対象の文書を登録  
+### [![Image from Gyazo](https://i.gyazo.com/a4b9db03d5f7709456698346f01d082f.gif)](https://gyazo.com/a4b9db03d5f7709456698346f01d082f)  
+## 文書の所管部署や廃棄年月日を指定して文書の情報を検索  
 ### [![Image from Gyazo](https://i.gyazo.com/a694df14e530270c6b25d936def98402.gif)](https://gyazo.com/a694df14e530270c6b25d936def98402)  
 ## 登録した文書の詳細を確認  
 ### [![Image from Gyazo](https://i.gyazo.com/86a5a723ef143e4f40fadb96a3c57042.gif)](https://gyazo.com/86a5a723ef143e4f40fadb96a3c57042)  
 ## 必要に応じて廃棄期限残日数を確認  
 ### [![Image from Gyazo](https://i.gyazo.com/a56e3a8407d0eebf03723525e83c5f50.gif)](https://gyazo.com/a56e3a8407d0eebf03723525e83c5f50)  
-## 廃棄が完了した文書や保管対象外となった文書をデータベースから削除  
+## 廃棄が完了した文書や保管対象外となった文書を削除  
 ### [![Image from Gyazo](https://i.gyazo.com/ca34c8bb24505ea325771d1245743cd5.gif)](https://gyazo.com/ca34c8bb24505ea325771d1245743cd5)  
 
 
