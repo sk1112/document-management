@@ -5,7 +5,7 @@
 </div>
 <%= render 'documents/search_documents', document: @document %>
 <% if @documents.length !=0 %>
-<div class="documents-list">登録文書一覧</div>
+<div class="documents-list">登録(保管・廃棄対象)文書一覧</div>
 <div class="documents">
   <% @documents.each do |document| %>
     <div class="document">
