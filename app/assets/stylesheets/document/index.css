@@ -1,3 +1,12 @@
+.user-greeting {
+  text-align: center;
+  color: deepskyblue;
+  background: -webkit-linear-gradient(-45deg, aqua, dodgerblue, deepskyblue, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 18px;
+}
+
 .search-documents {
   display: flex;
   align-items: center;
@@ -5,46 +14,52 @@
 }
 
 .search-select {
-  margin: 5px 10px 0;
+  margin: 0 11px;
 }
 
 select {
   width: 280px;
   height: 50px;
   border: 2px groove lightsteelblue;
-  margin: 10px 0 20px 0;
+  margin: 5px 0 20px;
   border-radius: 5px;
   box-shadow: 2px -2px lightsteelblue;
   font-size: 15px;
 }
 
-.user-greeting {
-  text-align: center;
-  color: steelblue;
-}
-
 .documents-list {
   text-align: center;
+  border-bottom: 6px solid;
+  border-image: linear-gradient(to top right, aqua, dodgerblue, deepskyblue, white );
+  border-image-slice: 1;
+  margin: 0 0 10px 445px;
+  width: 120px;
 }
 
 .none-document {
   height: 120px;
   margin: 65px 0 50px 360px;
   font-size: 20px;
-  color: steelblue;
+  color: deepskyblue;
+  background: -webkit-linear-gradient(-45deg, aqua, dodgerblue, deepskyblue, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .none-result {
   height: 120px;
   margin: 65px 0 50px 390px;
   font-size: 20px;
-  color: steelblue;
+  color: deepskyblue;
+  background: -webkit-linear-gradient(-45deg, aqua, dodgerblue, deepskyblue, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .search-btn {
   cursor: pointer;
   height: 50px;
-  margin: 0 0 10px 10px;
+  margin: 0 0 18px 10px;
   font-family: FontAwesome;
   width: 90px;
   font-size: 15px;
@@ -79,7 +94,8 @@ select {
   margin: 10px 8px;
   text-align: center;
   border: 4px groove lightsteelblue;
-  background: linear-gradient(to top right, lightsteelblue, white);
+  border-radius: 5px;
+  background: linear-gradient(to top right, lightsteelblue, white, lightsteelblue);
 }
 
 .document:hover {

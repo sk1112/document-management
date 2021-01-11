@@ -23,19 +23,18 @@ body {
 }
 
 header {
-  height: 70px;
+  height: 100px;
   width: 100%;
-  padding-bottom: 40px;
   background: linear-gradient(to top right, aqua, dodgerblue, deepskyblue, white );   
   margin-bottom: 10px;
   text-shadow:2px 2px 3px black;
 }
 
-header .headline {
-    line-height: 100px;
-    float: left;
-    margin-left: 30px;
-    padding-bottom: 2px;
+.headline {
+  line-height: 100px;
+  float: left;
+  margin-left: 20px;
+  display: flex;
 }
 
 .headline:hover {
@@ -45,61 +44,40 @@ header .headline {
 .headline-name {
   text-decoration: none;
   color: white;
-  font-size: 19px;
+  font-size: 18px;
   font-family: monospace;
-
 }
 
 .nav-list {
-    line-height: 110px;
+    line-height: 100px;
     float: left;
     margin-left: 70px;
     list-style: none;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .nav-list-item {
   list-style: none;
   display: inline-block;
-  margin: 0 20px;
+  margin: 0 14px;
 }
 
 .nav-list-item:hover {
   text-shadow: none;
 }
 
-.document-registration {
+.header-items {
   color: white;
   text-decoration: none;
-}
-
-.user-registration {
-  color: white;
+  border-right: 3px solid white;
+  border-left: 3px solid white;
   text-decoration: none;
-}
-
-.user-session {
-  color: white;
-  text-decoration: none;
-}
-
-.user-name {
-  color: white;
+  padding: 2px 15px;
   text-decoration: none;
   text-shadow:2px 2px 3px black;
 }
 
-.user-name:hover {
-  text-shadow: none;
-}
-
-.logout {
-  color: white;
-  text-decoration: none;
-  text-shadow:2px 2px 3px black;
-}
-
-.logout:hover {
+.header-items:hover {
   text-shadow: none;
 }
 

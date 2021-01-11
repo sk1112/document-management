@@ -12,6 +12,16 @@
   font-size: 22px;
 }
 
+.document-items {
+  width: 300px;
+  background: linear-gradient(to top right, lightsteelblue, white, lightsteelblue);
+}
+
+.disposal-deadline {
+  width: 300px;
+  background: linear-gradient(to top right, lightsteelblue, white, lightsteelblue);
+}
+
 hr {
   border: solid 1px deepskyblue;
 }

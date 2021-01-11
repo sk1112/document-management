@@ -14,26 +14,26 @@
 
   <body>
     <header>
-  	  <h1 class="headline">
-        <%= link_to "DocumentManagement(文書保管・廃棄管理システム)", root_path, class:"headline-name" %>
-      </h1>
+  	  <div class="headline">
+        <%= link_to "Document Management(文書保管・廃棄管理システム)".html_safe, root_path, class:"headline-name" %>
+      </div>
       <ul class="nav-list">
+      <% if user_signed_in? %>
         <li class="nav-list-item">
-          <%= link_to "新規文書登録", new_document_path, class:"document-registration" %>
-        </li>
-        <% if user_signed_in? %>
-        <li class="nav-list-item">
-          <%= link_to current_user.name, user_path(current_user), method: :get, class: "user-name" %></li>
+          <%= link_to "文書登録", new_document_path, class:"header-items" %>
         </li>
         <li class="nav-list-item">
-          <%= link_to 'ログアウト', destroy_user_session_path, method: :delete, class: "logout" %>
+          <%= link_to current_user.name, user_path(current_user), method: :get, class: "header-items" %></li>
+        </li>
+        <li class="nav-list-item">
+          <%= link_to 'ログアウト', destroy_user_session_path, method: :delete, class: "header-items" %>
         </li>
         <% else %>
         <li class="nav-list-item">
-          <%= link_to "ログイン", new_user_session_path, class: "user-session" %>
+          <%= link_to "ログイン", new_user_session_path, class: "header-items" %>
         </li>
         <li class="nav-list-item">
-          <%= link_to "新規ユーザー登録", new_user_registration_path, class: "user-registration" %>
+          <%= link_to "ユーザー新規登録", new_user_registration_path, class: "header-items" %>
         </li>
         <% end %>
       </ul>
