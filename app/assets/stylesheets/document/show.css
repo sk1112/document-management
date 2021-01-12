@@ -14,16 +14,14 @@
 
 .document-items {
   width: 300px;
+  border-radius: 5px;
   background: linear-gradient(to top right, lightsteelblue, white, lightsteelblue);
 }
 
 .disposal-deadline {
   width: 300px;
+  border-radius: 5px;
   background: linear-gradient(to top right, lightsteelblue, white, lightsteelblue);
-}
-
-hr {
-  border: solid 1px deepskyblue;
 }
 
 .document-title {

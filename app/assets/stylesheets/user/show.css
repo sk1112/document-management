@@ -12,12 +12,9 @@
   font-size: 22px;
 }
 
-hr {
-  border: solid 1px deepskyblue
-}
-
 .user-items {
   width: 300px;
+  border-radius: 5px;
   background: linear-gradient(to top right, lightsteelblue, white, lightsteelblue);
 }
 

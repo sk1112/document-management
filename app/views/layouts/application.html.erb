@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>DocumentManagement</title>
+    <title>DocumentManagement</title> 
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -15,7 +15,7 @@
   <body>
     <header>
   	  <div class="headline">
-        <%= link_to "Document Management(文書保管・廃棄管理システム)".html_safe, root_path, class:"headline-name" %>
+        <%= link_to "Document Management[文書保管・廃棄管理システム]".html_safe, root_path, class:"headline-name" %>
       </div>
       <ul class="nav-list">
       <% if user_signed_in? %>
@@ -26,7 +26,7 @@
           <%= link_to current_user.name, user_path(current_user), method: :get, class: "header-items" %></li>
         </li>
         <li class="nav-list-item">
-          <%= link_to 'ログアウト', destroy_user_session_path, method: :delete, class: "header-items" %>
+          <%= link_to 'ログアウト', destroy_user_session_path, method: :delete, class: "header-items", data: { confirm: "ログアウトしてよろしいですか？"} %>
         </li>
         <% else %>
         <li class="nav-list-item">

@@ -32,7 +32,7 @@
   <div class="btn-contents">
   <% if user_signed_in? && current_user.id == @document.user.id %>
     <p><%= link_to "編集する", edit_document_path, method: :get, class:"edit-btn" %></p>
-    <p><%= link_to "削除する", document_path, method: :delete, class: "delete-btn" %></p>
+    <p><%= link_to "削除する", document_path, method: :delete, class: "delete-btn", data: { confirm: "削除してよろしいですか？"} %></p>
   <% end %>
   <p><%= link_to "戻る", root_path, class:"btn-to-back"%></p>
   </div>

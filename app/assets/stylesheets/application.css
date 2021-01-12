@@ -49,11 +49,11 @@ header {
 }
 
 .nav-list {
-    line-height: 100px;
-    float: left;
-    margin-left: 70px;
-    list-style: none;
-    font-size: 16px;
+  line-height: 100px;
+  float: left;
+  margin-left: 70px;
+  list-style: none;
+  font-size: 16px;
 }
 
 .nav-list-item {

@@ -1,11 +1,6 @@
-<div class="user-greeting">
-  <% if user_signed_in? %>
-  <%= current_user.name %>さん、こんにちは！
-  <% end %>
-</div>
 <%= render 'documents/search_documents', document: @document %>
 <% if @documents.length !=0 %>
-<div class="documents-list">登録(保管・廃棄対象)文書一覧</div>
+<div class="documents-list">登録文書一覧[文書をクリックすると詳細情報が表示されます]</div>
 <div class="documents">
   <% @documents.each do |document| %>
     <div class="document">
