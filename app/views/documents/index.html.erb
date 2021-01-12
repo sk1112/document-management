@@ -1,6 +1,8 @@
 <%= render 'documents/search_documents', document: @document %>
+<div class="document-lists">
+  <div>登録文書一覧<br>[文書をクリックすると詳細情報が表示されます]</div>
+</div>
 <% if @documents.length !=0 %>
-<div class="documents-list">登録文書一覧[文書をクリックすると詳細情報が表示されます]</div>
 <div class="documents">
   <% @documents.each do |document| %>
     <div class="document">

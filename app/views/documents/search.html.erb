@@ -1,5 +1,7 @@
 <%= render 'documents/search_documents', document: @document %>
-<div class="documents-list">検索結果</div>
+<div class="document-lists">
+  <div class="search-result">検索結果</div>
+</div>
 <div class="documents">
 <% if @results.length !=0 %>
   <% @results.each do |result| %>

@@ -12,19 +12,24 @@ select {
   width: 280px;
   height: 50px;
   border: 2px groove lightsteelblue;
-  margin: 5px 0 20px;
+  margin: 10px 0 20px;
   border-radius: 5px;
   box-shadow: 2px -2px lightsteelblue;
   font-size: 15px;
 }
 
-.documents-list {
+.document-lists {
+  display: flex;
+  flex-direction: column;
   text-align: center;
   width: 100%;
-  height: 60px;
-  line-height: 60px;
+  height: 50px;
   margin-bottom: 10px;
   background: linear-gradient(to top right, lightsteelblue, white, lightsteelblue);
+}
+
+.search-result {
+  line-height: 50px;
 }
 
 .none-document {
@@ -50,7 +55,7 @@ select {
 .search-btn {
   cursor: pointer;
   height: 50px;
-  margin: 0 0 18px 10px;
+  margin: 0 0 10px 10px;
   font-family: FontAwesome;
   width: 90px;
   font-size: 15px;

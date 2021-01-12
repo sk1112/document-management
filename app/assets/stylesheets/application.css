@@ -31,10 +31,11 @@ header {
 }
 
 .headline {
-  line-height: 100px;
   float: left;
-  margin-left: 20px;
+  margin: 20px 20px 20px 25px;
   display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 .headline:hover {
@@ -44,11 +45,11 @@ header {
 .headline-name {
   text-decoration: none;
   color: white;
-  font-size: 18px;
+  font-size: 20px;
   font-family: monospace;
 }
 
-.nav-list {
+.headline-list {
   line-height: 100px;
   float: left;
   margin-left: 70px;
@@ -56,13 +57,13 @@ header {
   font-size: 16px;
 }
 
-.nav-list-item {
+.headline-items {
   list-style: none;
   display: inline-block;
   margin: 0 14px;
 }
 
-.nav-list-item:hover {
+.headline-items:hover {
   text-shadow: none;
 }
 
@@ -79,6 +80,29 @@ header {
 
 .header-items:hover {
   text-shadow: none;
+}
+
+.headline-login {
+  list-style: none;
+  display: inline-block;
+  margin-left: 240px;
+}
+
+.headline-registration {
+  list-style: none;
+  display: inline-block;
+  margin-left: 50px;
+}
+
+.login-items {
+  color: white;
+  text-decoration: none;
+  border-right: 3px solid white;
+  border-left: 3px solid white;
+  text-decoration: none;
+  padding: 2px 15px;
+  text-decoration: none;
+  text-shadow:2px 2px 3px black;
 }
 
 footer {

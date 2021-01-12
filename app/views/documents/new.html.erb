@@ -26,7 +26,7 @@
             '年 ', '月 ') %>
      </div>
      <div class="document-btn">
-     <%= f.submit "登録する" ,class:"btn" %>
+     <%= f.submit "登録する" ,class:"btn", data: { confirm: "登録してよろしいですか？"} %>
      <%= link_to "戻る", root_path, class:"btn-back" %>
      </div>
   </div>
