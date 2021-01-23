@@ -85,13 +85,15 @@ header {
 .headline-login {
   list-style: none;
   display: inline-block;
-  margin-left: 240px;
+  margin-left: 200px;
+  font-size: 18px;
 }
 
 .headline-registration {
   list-style: none;
   display: inline-block;
   margin-left: 50px;
+  font-size: 18px;
 }
 
 .login-items {
@@ -100,9 +102,13 @@ header {
   border-right: 3px solid white;
   border-left: 3px solid white;
   text-decoration: none;
-  padding: 2px 15px;
+  padding: 2px 20px;
   text-decoration: none;
   text-shadow:2px 2px 3px black;
+}
+
+.login-items:hover {
+  text-shadow: none;
 }
 
 footer {
